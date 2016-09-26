@@ -1,12 +1,11 @@
 start = int(raw_input("Height: "))
-space = start
-star = []
-x=0
-y=0
-for number in range (start+1):
-    star.append(number)
+space = range(1,start+1)
 
-for num in star:
-    print ((space - y) * " ") + ((num + x) * "*")
+x=1
+y=1
+
+for num in space:
+    v = start - y
+    print (v * " ") + (x * "*")
     x += 2
     y += 1
