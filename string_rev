@@ -1,0 +1,11 @@
+slice(::-1)
+range (len(string) - 1, -1, -1)
+
+
+
+chars = list(string)
+chars.reverse()
+join ('', chars)
+''.join(chars)
+
+or 
